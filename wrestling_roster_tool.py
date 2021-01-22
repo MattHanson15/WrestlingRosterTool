@@ -56,12 +56,12 @@ wwe = ttk.Notebook(tab_parent)
 	#Create brands
 wwe_tabs = [
 WWE("RAW",'https://en.wikipedia.org/wiki/List_of_WWE_personnel',wwe,[
-"WWE Champion","Raw Women's Champion","United States Champion","Raw Tag Team Champion","24/7 Champion"],"Raw"),
+"WWE Champion","Raw Women's Champion","United States Champion","Raw Tag Team Champion","Women's Tag Team Champion","24/7 Champion"],"Raw"),
 WWE("Smackdown",'https://en.wikipedia.org/wiki/List_of_WWE_personnel',wwe,[
 "Universal Champion","SmackDown Women's Champion","Intercontinental Champion","SmackDown Tag Team Champion",
-"Women's Tag Team Champion"],"SmackDown"),
+"Women's Tag Team Champion","24/7 Champion"],"SmackDown"),
 WWE("NXT",'https://en.wikipedia.org/wiki/List_of_WWE_personnel',wwe,[
-"NXT Champion","NXT Women's Champion","North American Champion","NXT Tag Team Champion","NXT Cruiserweight Championship"], "NXT"),
+"NXT Champion","NXT Women's Champion","North American Champion","NXT Tag Team Champion","Women's Tag Team Champion","NXT Cruiserweight Championship"], "NXT"),
 WWE("NXT UK",'https://en.wikipedia.org/wiki/List_of_WWE_personnel',wwe,[
 "NXT United Kingdom Champion","NXT UK Women's Champion","NXT UK Tag Team Champion", "NXT Cruiserweight Champion", "Heritage Cup Champion"], "NXT_UK")
 ]
